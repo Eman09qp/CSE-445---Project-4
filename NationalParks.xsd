@@ -1,5 +1,8 @@
-﻿<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault ="qualified"
-	attributeFormDefault="unqualified">
+﻿<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+			targetNamespace="https://github.com/Eman09qp/CSE-445---Project-4"
+			xmlns="https://github.com/Eman09qp/CSE-445---Project-4"
+			elementFormDefault ="qualified"
+			attributeFormDefault="unqualified">
 	<xsd:annotation>
 		<xsd:documentation xml:lang="en">Project 4</xsd:documentation>
 	</xsd:annotation>
