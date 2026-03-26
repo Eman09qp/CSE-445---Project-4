@@ -2,12 +2,14 @@
 			   xmlns="https://github.com/Eman09qp/CSE-445---Project-4"
 			   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			   xsi:schemaLocation="https://github.com/Eman09qp/CSE-445---Project-4 https://raw.githubusercontent.com/Eman09qp/CSE-445---Project-4/refs/heads/main/NationalParks.xsd">
-	<NationalPark>
+	<NationalPark Rating="4.9">
 		<Name>Acadia National Park</Name>
-		<Address>
+		<Phone>207-288-3338</Phone>
+		<Address NearestAirport="Hancock Airport">
 			<Number>25</Number>
 			<Street>Visitor Center Rd</Street>
-			<City>ME</City>
+			<City>Bar Harbor</City>
+			<State>ME</State>
 			<Zip>04609</Zip>
 		</Address>
 	</NationalPark>
