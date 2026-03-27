@@ -1,34 +1,26 @@
-<NationalPark>
+<NationalPark
 			   xmlns="https://github.com/Eman09qp/CSE-445---Project-4"
+			   xmlns:json="http://james.newtonking.com/projects/json"
 			   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			   xsi:schemaLocation="https://github.com/Eman09qp/CSE-445---Project-4 https://raw.githubusercontent.com/Eman09qp/CSE-445---Project-4/refs/heads/main/NationalParks.xsd">
-	<NationalPark Rating="4.9">
-		<Name>Acadia National Park</Name>
-		<Name>Acadia National</Name>
-		<Phone>207-288-3338</Phone>
-		<Address NearestAirport="Bay Harbor">
-			<Number>25</Number>
-			<Street>Visitor Center Rd</Street>
-			<City>Bar Harbor</City>
-			<State>ME</State>
-			<Zip>04609</Zip>
-		</Address>
-	</NationalPark>
-	<NationalPark Rating="4.9">
-		<Name>Acadia National Park</Name>
-		
-		<Address NearestAirport="Bay Harbor">
-			<Number>25</Number>
-			<Street>Visitor Center Rd</Street>
-			<City>Bar Harbor</City>
-			<State>ME</State>
-			<Zip>04609</Zip>
-		</Address>
-	</NationalPark>
-	<NationalPark Rating="4.9">
-		<Name>Acadia National Park</Name>
-		<Phone>207-288-3338</Phone>
+	<NationalPark json:Array="true" Rating="4.9">
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
 		<Address>
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark json:Array="true" Rating="4.9">
+		<Name>Acadia National Park</Name>
+		
+		<Address NearestAirport="Hancock Airport">
 			<Number>25</Number>
 			<Street>Visitor Center Rd</Street>
 			<City>Bar Harbor</City>
@@ -36,4 +28,118 @@
 			<Zip>04609</Zip>
 		
 	</NationalPark>
+
+	<NationalPark json:Array="true" Rating="4.8">
+		<Name>Arches National Park</Name>
+		<Name>Arches</Name>
+		<Phone>435-719-2299</Phone>
+		<Address NearestAirport="Canyon Lands Regional Airport">
+			<Number>907</Number>
+			<Street>P.O Box</Street>
+			<City>Moab</City>
+			<State>UT</State>
+			<Zip>84532</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark json:Array="true">
+		<Name>Badlands</Name>
+		<Phone>605-433-5361</Phone>
+		<Phone>605-433-5360</Phone>
+		<Address NearestAirport="Rapid City Regional Airport">
+			<Number>25216</Number>
+			<Street>Ben Reifel Road</Street>
+			<City>Bar Harbor</City>
+			<State>SD</State>
+			<Zip>57750</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark json:Array="true">
+		<Name>Big Bend</Name>
+		<Phone>432-477-2251</Phone>
+		<Phone>432-477-1121</Phone>
+		<Address NearestAirport="Midland International">
+			<Number>129</Number>
+			<Street>P.O Box</Street>
+			<City>Chihuahua</City>
+			<State>TX</State>
+			<Zip>79834</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark json:Array="true" Rating="4.7">
+		<Name>Biscayne</Name>
+		<Phone>786-335-3620</Phone>
+		<Address NearestAirport="Miami International">
+			<Number>9700</Number>
+			<Street>SW 328th Street</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33033</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark json:Array="true">
+		<Name>Black Canyon of the Gunnison</Name>
+		<Phone>970-641-2337</Phone>
+		<Address NearestAirport="Montrose Regional Airport">
+			<Number>9800</Number>
+			<Street>Highway 347</Street>
+			<City>Montrose</City>
+			<State>CO</State>
+			<Zip>81401</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark json:Array="true" Rating="4.9">
+		<Name>Bryce Canyon</Name>
+		<Phone>435-834-5322</Phone>
+		<Address NearestAirport="Bryce Canyon Airport">
+			<Number>63</Number>
+			<Street>Highway</Street>
+			<City>Bryce Canyon</City>
+			<State>UT</State>
+			<Zip>84764</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark json:Array="true" Rating="4.6">
+		<Name>Carlsbad Caverns</Name>
+		<Phone>575-785-2232</Phone>
+		<Phone>877-444-6777</Phone>
+		<Address NearestAirport="Cavern City">
+			<Number>727</Number>
+			<Street>Carlsbad Caverns Hwy</Street>
+			<City>Carlsbad</City>
+			<State>NM</State>
+			<Zip>88220</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark json:Array="true">
+		<Name>Channel Islands</Name>
+		<Phone>805-437-8400</Phone>
+		<Address NearestAirport="Guernsey Airport">
+			<Number>1</Number>
+			<Street>University Drive Camarillo</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>93012</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark json:Array="true" Rating="4.8">
+		<Name>Denali</Name>
+		<Phone>907-683-9532</Phone>
+		<Address NearestAirport="Faribank">
+			<Number>237</Number>
+			<Street>George Parks Highway</Street>
+			<City>Denali Park</City>
+			<State>AK</State>
+			<Zip>99755</Zip>
+		</Address>
+	</NationalPark>
+
 </NationalPark>
+
