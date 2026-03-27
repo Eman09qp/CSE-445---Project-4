@@ -1,4 +1,4 @@
-<NationalPark
+<NationalParks
 			   xmlns="https://github.com/Eman09qp/CSE-445---Project-4"
 			   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			   xsi:schemaLocation="https://github.com/Eman09qp/CSE-445---Project-4 https://raw.githubusercontent.com/Eman09qp/CSE-445---Project-4/refs/heads/main/NationalParks.xsd">
@@ -14,4 +14,4 @@
 			<Zip>04609</Zip>
 		</Address>
 	</NationalPark>
-</NationalPark>
+</NationalParks>
