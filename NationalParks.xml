@@ -1,8 +1,9 @@
 <NationalParks 
 			   xmlns="https://github.com/Eman09qp/CSE-445---Project-4"
+			   xmlns:json="http://james.newtonking.com/projects/json"
 			   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			   xsi:schemaLocation="https://github.com/Eman09qp/CSE-445---Project-4 https://raw.githubusercontent.com/Eman09qp/CSE-445---Project-4/refs/heads/main/NationalParks.xsd">
-	<NationalPark Rating="4.9">
+	<NationalPark json:Array="true" Rating="4.9">
 		<Name>Acadia National Park</Name>
 		<Phone>207-288-3338</Phone>
 		<Address NearestAirport="Hancock Airport">
