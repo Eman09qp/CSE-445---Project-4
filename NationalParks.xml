@@ -14,4 +14,16 @@
 			<Zip>04609</Zip>
 		</Address>
 	</NationalPark>
+	<NationalPark json:Array="true" Rating="4.5">
+		<Name>Yellow Stone</Name>
+		<Phone>602-288-3338</Phone>
+		<Phone>702-288-3338</Phone>
+		<Address NearestAirport="Utah Airport">
+			<Number>1444</Number>
+			<Street>Visitor Center Rd</Street>
+			<City>Bar Harbor</City>
+			<State>ME</State>
+			<Zip>04609</Zip>
+		</Address>
+	</NationalPark>
 </NationalParks>
