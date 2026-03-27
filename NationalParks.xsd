@@ -28,7 +28,6 @@
 			<xsd:element name="State" type="StateType" minOccurs="1" maxOccurs="1"/>
 			<xsd:element name="Zip" type="ZipType" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
-		<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
 	</xsd:complexType>
 	<xsd:simpleType name="RatingType">
 		<xsd:restriction base="xsd:string">
